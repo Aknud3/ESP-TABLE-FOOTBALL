@@ -48,7 +48,7 @@ Chtěli bychom poděkovat paní ředitelce za podporu a poskytnutí rozpočtu na
 Na projektu se podíleli: Jan Studničný, Eduard Wojnar, Matěj Zeman, Vítek Salaba, Oskar Kruman, Michal Havlík, Michal Kňourek, Matyáš Koutník, Daniel Matějů, Vojtěch Pažout a David Pluhař, kterému děkujeme za poskytnutí svého hlasu pro zvukové efekty.
 
 Fotky: 
-
+Kopletní a finální verze
 ![IMG_0025](https://github.com/user-attachments/assets/a582bf9a-bcae-48f2-96ae-9f7d5a8268c4)
 
 ![IMG_0021](https://github.com/user-attachments/assets/d8b95602-f166-4aca-8741-7538ea89bc55)
