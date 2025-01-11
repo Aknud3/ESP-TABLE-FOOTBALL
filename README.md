@@ -1,2 +1,2 @@
 # Table-football
-This is repository for a school project around a ESP32 inside renovated table football
+Toto je repozitář pro renovaci stolního fotbálku pro školu Gymnázium v Mnichově Hradišti. 
