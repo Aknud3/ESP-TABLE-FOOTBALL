@@ -36,11 +36,11 @@ dac = machine.DAC(machine.Pin(AUDIO_PIN))
 
 # asynchroní získávání dat z čidel
 
-# Optimalizovaná funkce pro měření vzdálenosti
+# Optimalizovaná funkce pro měření vzdálenosti, která je asynchroní ☠️
 async def get_distance(trig, echo):
     # Rychlejší přepnutí stavu triggeru
     trig.off()
-    time.sleep_us(10)  # Změna na sleep_ms pro rychlejší spánek
+    time.sleep_us(10) 
     trig.on()
     time.sleep_us(10)  # Kratší trvání pulzu, 10 mikrosekund je standard pro senzory jako HC-SR04
     trig.off()
@@ -63,9 +63,9 @@ async def get_distance(trig, echo):
 
     # Výpočet doby trvání a návrat hodnoty
     duration = time.ticks_diff(end, start)
-    return duration  # Vracíme výsledek bez zaokrouhlení pro vyšší přesnost
-
-# Další asynchroní funkce pro 
+    return duration  # Vracíme výsledek
+    
+# tohle bylo cancer najít jak to vůbec funguje a nastavit, ale podařilo se mi to
 def play_wav(filename):
     try:
         with open(filename, 'rb') as f:
@@ -109,21 +109,20 @@ def play_wav(filename):
         print(f"Error playing WAV file: {e}")
     
         
-# Nevim vubec, co se tady děje
 async def main():
     play_wav("/come_play.wav")
-    
+
+    # šetříme elektřinou a stejně víc to svítit nemusí
     for i in range(50):
         np[i*4] = ((100,100,100))
         np.write()
     
-  # nastavime ledky na bilo
     while True:
         distance1 = await get_distance(trig1, echo1)  # dostaneme 2 vzdalenosti
         distance2 = await get_distance(trig2, echo2)
         await asyncio.sleep_ms(1)   
         
-        if (distance1 < 250) or ( distance2 < 250):
+        if (distance1 < 250) or ( distance2 < 250): # tohle je změřené takže jestli někdo bude šprtovat, že to je špatně, tak si to může předělat
             print("Míček detekován na senzoru!")
             play_wav("/gol_final.wav")
             await asyncio.sleep(1)
