@@ -58,7 +58,7 @@ Fotky fotbálku bez černého spodku a s otočenými tyčemi
 
 ## Poděkování
 
-Chtěli bychom poděkovat paní ředitelce za podporu a poskytnutí rozpočtu na tento projekt, stejně jako všem vyučujícím, zejména panu Rydvalovi, za jejich trpělivost a ochotu.
+Chtěli bychom poděkovat paní ředitelce za podporu a poskytnutí rozpočtu na tento projekt, stejně jako všem vyučujícím, zejména panu Rydvalovi, za jejich trpělivost a ochotu, ale nejvíce panu Školníkovi za vypůjčení prostorů a všeho nářadí.
 
 ## Podíl účastníků
 Na projektu se podíleli: Jan Studničný, Eduard Wojnar, Matěj Zeman, Vítek Salaba, Oskar Kruman, Michal Havlík, Michal Kňourek, Matyáš Koutník, Daniel Matějů, Vojtěch Pažout a David Pluhař, kterému děkujeme za poskytnutí svého hlasu pro zvukové efekty.
