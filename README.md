@@ -45,7 +45,7 @@ Aby byl fotbálek výjimečný, rozhodli jsme se přidat zvukové efekty a LED p
 Kopletní a finální verze
 ![IMG_0025](https://github.com/user-attachments/assets/a582bf9a-bcae-48f2-96ae-9f7d5a8268c4)
 
-Elektrické schéma (nakonec nám 2A nestačili a potřebovali jsme 3, takže ESP je napájeno micro USB kabelem 5V 1A a zbytek 5V 2A zdrojem)
+Elektrické schéma (nakonec nám 2A nestačily a potřebovali jsme 3, takže ESP je napájeno micro USB kabelem 5V 1A a zbytek 5V 2A zdrojem)
 ![d5c822ed-dd5a-4feb-9d95-94830d2675c0](https://github.com/user-attachments/assets/ffdab394-dde5-4fc5-9838-746097248584)
 
 Horní díl u Honzy doma
