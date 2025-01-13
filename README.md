@@ -22,7 +22,7 @@ Na začátku bylo cílem fotbálek pouze rozebrat, přetřít a znovu složit. N
 
 ### **Třetí fáze – Přidání unikátních prvků**
 Aby byl fotbálek výjimečný, rozhodli jsme se přidat zvukové efekty a LED podsvícení. Na tomto úkolu jsem pracoval společně s Honzou Studničným. Dále jsme potřebovali nové plastové prvky, tak jsme je vytiskli. 
-- Udělal jsem ESP kód, který sleduje vzdálenost na čidlech a když to je mimo odchilku, tak se do DAC pinu pošle zvukový efekt. 
+- Udělal jsem ESP kód, který sleduje vzdálenost na čidlech. Když jsou hodnoty mimo klidové, což znamená zaznamenání míčku, tak se do DAC pinu pošle zvukový efekt a přes něho do reproduktorů. 
 - Na 3D tiskárně vyrobili plastové součástky, včetně dvou míčků a počítadel skóre.
 
 ### **Čtvrtá fáze – Kompletace**
