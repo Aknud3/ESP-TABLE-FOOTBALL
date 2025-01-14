@@ -1,44 +1,18 @@
-# Renovace stolního fotbálku
+Projekt začal díky iniciativě paní ředitelky, která nechtěla vyhodit starý, poškozený fotbálek pocházející z fary v Mnichově Hradišti. Původně byl zamýšlen jako součást programu projektového týdne místního gymnázia, ale nápadu rekonstrukce se chopil pan Rydval a předal jej předal studentům současné septimy (ročník 2024/2025). Práce na projektu probíhala během volných hodin a za podpory některých vyučujících, kteří uvolňovali studenty z výuky.  
 
-Tento repozitář dokumentuje projekt renovace stolního fotbálku pro Gymnázium v Mnichově Hradišti.
+První fáze renovace byla demontáž a úprava základní konstrukce. Na začátku byl cíl fotbálek pouze rozebrat, přetřít, namazat a znovu složit. Nicméně vzhledem ke stavu zařízení bylo nutné zvolit náročnější postup. Nejprve byly odstraněny poškozené dřevěné bočnice. Při demolici se ukázalo, že bude potřeba kompletně nahradit horní díl konstrukce. Tento úkol si vzal na starost Honza Studničný, který nový díl vytvořil doma ve svém volném čase doma. Mezitím byla spodní část opravena a zpevněna. 
 
-## Historie projektu
+Druhá fáze byla obnova součástek hlavně herních figurek, plastových komponentů a tyčí. Hráčské figurky a tyče byly rozebrány, obroušeny a ošetřeny. Figurky byly natřeny temperovými barvami, které se bohužel ukázaly jako nevhodné – barva se nyní odlupuje. Tyče byly očištěny od rzi a rukojetě byly nastříkány černou barvou. Všechny staré plasty se vyhodily a náhrady jsme si vytiskli na 3D tiskárně.  
 
-Projekt začal díky iniciativě paní ředitelky, která nechtěla vyhodit starý, poškozený fotbálek pocházející z fary v Mnichově Hradišti. Původně byl zamýšlen jako součást projektového týdne, ale nápadu se chopil pan Rydval, který jej předal studentům septimy (ročník 2024/2025). Práce na projektu probíhala během volných hodin a za podpory vyučujících, kteří uvolňovali studenty z výuky.
+Třetí fáze byla v duchu elektroniky. Aby byl fotbálek výjimečný, tak jsme se rozhodli přidat zvukové efekty a LED podsvícení. Na tomto úkolu jsem pracoval společně s Honzou Studničným. Naprogramoval jsem mikročip ESP32 kódem, jenž sleduje dvě ultrazvuková čidla, která když zaznamenají projetí míčku, pošlou do reproduktorů přes DAC pin pošlou zvukový efekt.  
 
-## Průběh renovace
+Kompletace celého stolu byla na 2 etapy. První fáze byla před Vánocemi během nocování ve škole, kam jsme přivezli nový horní díl a celý stůl smontovali. Bohužel při montáži nastala chyba a tyče byly osazeny otočené o 180°, což se opravilo až při druhé fázi, kdy se také natřel celý spodní díl černou barvou a tyče se promazaly mazadlem WD-40. Poté jsme taky osadili nové boční odražeče, přenastavili LED podsvícení a přidali nový zvukový efekt.  
 
-### **První fáze – Demontáž a úprava základní konstrukce**
-Na začátku bylo cílem fotbálek pouze rozebrat, přetřít a znovu složit. Nicméně vzhledem ke stavu zařízení bylo nutné zvolit náročnější postup. 
-- Byly odstraněny poškozené dřevěné bočnice.
+Výsledek projektu je teď vedle učebny 225 na Gymnáziu v Mnichově Hradišti. Všem účastníkům dělá radost, že mohli dát nový život něčemu, co by se jinak vyhodilo, a ještě bude dlouho sloužit spolužákům a studentům. 
 
-- Ukázalo se, že bude třeba kompletně nahradit horní část fotbálku. Tento úkol si vzal na starost Honza Studničný, který nový díl vytvořil doma ve svém volném čase.
-- Spodní část konstrukce byla opravena a zpevněna.
+Chtěli bychom poděkovat paní ředitelce za podporu a poskytnutí rozpočtu na tento projekt, stejně jako všem vyučujícím, zejména panu Rydvalovi, za jejich trpělivost a ochotu, nejvíce pak panu školníkovi za vypůjčení prostorů a všeho nářadí. 
 
-### **Druhá fáze – Obnova součástek**
-- Hráčské figurky a tyče byly rozebrány, obroušeny a ošetřeny.
-- Figury byly natřeny temperovými barvami, které se bohužel ukázaly jako nevhodné – barva se nyní odlupuje.
-- Tyče byly očištěny od rzi a rukojeti byly nastříkány černou barvou.
-
-### **Třetí fáze – Přidání unikátních prvků**
-Aby byl fotbálek výjimečný, rozhodli jsme se přidat zvukové efekty a LED podsvícení. Na tomto úkolu jsem pracoval společně s Honzou Studničným. Dále jsme potřebovali nové plastové prvky, tak jsme je vytiskli. 
-- Udělal jsem ESP kód, který sleduje vzdálenost na čidlech. Když jsou hodnoty mimo klidové, což znamená zaznamenání míčku, tak se do DAC pinu pošle zvukový efekt a přes něho do reproduktorů. 
-- Na 3D tiskárně vyrobili plastové součástky, včetně dvou míčků a počítadel skóre.
-
-### **Čtvrtá fáze – Kompletace**
-- Po dokončení horní části byl fotbálek smontován. Největší část práce proběhla během přespání ve škole
-- Kvůli chybě při montáži byly tyče osazeny otočené o 180°, což se opravovalo až po Vánocích. 
-- Během oprav jsme také přidali nové boční odrážeče, přenastavili LED podsvícení a implementovali další zvukové efekty.
-- Spodní část fotbálku byla natřena černou barvou a tyče byly ošetřeny mazivem WD-40 (Toto je až od 10.1 2025).
-
-## Výsledky projektu
-
-- Kompletní výměna horní části konstrukce, která byla nalakována a opálená.
-- Opravené a nově natřené hráčské figurky.
-- Renovované tyče – odstranění rzi, úprava povrchu a nové černé rukojeti.
-- Více než 60 plastových dílů a 2 míčky vyrobené pomocí 3D tisku.
-- Elektronická výbava zahrnující ESP32 dev board, reproduktory, LED pásek a ultrazvuková čidla.
-- Celý spodní díl byl přetřen černou barvou.
+Na projektu se podíleli: Jan Studničný, Eduard Wojnar, Matěj Zeman, Vítek Salaba, Oskar Kruman, Michal Havlík, Michal Kňourek, Matyáš Koutník, Daniel Matějů, Vojtěch Pažout a David Pluhař, kterému děkujeme za poskytnutí svého hlasu pro zvukové efekty.  
 
 ## Fotky: 
 
