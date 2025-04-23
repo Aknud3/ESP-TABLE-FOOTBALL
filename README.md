@@ -150,5 +150,3 @@ Na projektu se podíleli:
 - Daniel Matějů
 - Vojtěch Pažout
 - David Pluhař
-
-Pro dotazy nebo další informace kontaktujte tým prostřednictvím školních kanálů.
